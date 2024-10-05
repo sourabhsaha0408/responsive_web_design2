@@ -1,0 +1,588 @@
+@media screen and (min-width: 350px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .navBar {
+    margin: 10px 20px;
+    border: 1px solid;
+  }
+  .navBar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .leftNavBar {
+    display: flex;
+    align-items: center;
+  }
+  .slackLogo {
+    width: 20px;
+  }
+  .slackText {
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  .menuIcon {
+    width: 20px;
+  }
+  .straightLine {
+    height: 10px;
+    width: 100%;
+  }
+  .whereWork {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0px 0px 20px;
+  }
+  .happens {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 0px 0px 20px;
+  }
+  .para1 {
+    margin: 20px 20px 30px 20px;
+  }
+  .divForButton1and2 {
+    margin: 10px 20px;
+    /* background-color: red; */
+  }
+  .btn1 {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #4a34af;
+    color: white;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  .alreadyUsingSlackAndSignin {
+    display: flex;
+    margin: 10px 0px 0px 20px;
+  }
+  .signIn {
+    margin-left: 10px;
+  }
+  .divForHumansImage {
+    display: flex;
+    justify-content: center;
+  }
+  .imageHuman {
+    width: 350px;
+    margin-top: 25px;
+  }
+  .secondHalf {
+    background-color: #f5f5f5;
+    padding: 30px 0px;
+  }
+  .goodCompany {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .millionsOf {
+    font-size: 18px;
+    text-align: center;
+  }
+  .haveAlready {
+    font-size: 18px;
+    text-align: center;
+  }
+  .workHappens {
+    font-size: 18px;
+    text-align: center;
+  }
+  .btn2 {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: white;
+    color: blue;
+    font-size: 10px;
+    font-weight: bolder;
+    margin-top: 20px;
+  }
+  .variousLogos {
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .logoDimensions {
+    height: 50px;
+  }
+  .rightNavBar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 413px) {
+  .slackLogo {
+    width: 30px;
+  }
+  .slackText {
+    font-size: 26px;
+  }
+  .menuIcon {
+    width: 30px;
+  }
+  .whereWork {
+    font-size: 35px;
+  }
+  .happens {
+    font-size: 35px;
+  }
+  .para1 {
+    font-size: 18px;
+  }
+  .btn1 {
+    padding: 15px 0px;
+    font-size: 15px;
+  }
+  .alreadyUsingSlackAndSignin {
+    margin: 15px 0px 10px 20px;
+  }
+  .alreadyUsingSlack {
+    font-size: 20px;
+  }
+  .signIn {
+    font-size: 20px;
+  }
+  .imageHuman {
+    width: 375px;
+  }
+  .secondHalf {
+    background-color: #f5f5f5;
+    padding: 40px 0px;
+  }
+  .goodCompany {
+    font-size: 30px;
+  }
+  .millionsOf {
+    font-size: 18px;
+  }
+  .haveAlready {
+    font-size: 18px;
+  }
+  .workHappens {
+    font-size: 18px;
+  }
+  .btn2 {
+    padding: 15px 0px;
+    font-size: 15px;
+  }
+  .variousLogos {
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .logoDimensions {
+    height: 75px;
+  }
+}
+
+@media screen and (min-width: 513px) {
+  .imageHuman {
+    width: 450px;
+  }
+  .goodCompany {
+    font-size: 30px;
+  }
+  .millionsOf {
+    font-size: 20px;
+  }
+  .haveAlready {
+    font-size: 20px;
+  }
+  .workHappens {
+    font-size: 20px;
+  }
+  .logoDimensions {
+    height: 85px;
+  }
+}
+
+@media screen and (min-width: 613px) {
+  .slackLogo {
+    width: 40px;
+  }
+  .slackText {
+    font-size: 36px;
+  }
+  .menuIcon {
+    width: 40px;
+  }
+  .whereWork {
+    font-size: 40px;
+  }
+  .happens {
+    font-size: 40px;
+  }
+  .para1 {
+    font-size: 20px;
+  }
+  .btn1 {
+    padding: 20px 0px;
+    font-size: 15px;
+  }
+  .alreadyUsingSlackAndSignin {
+    margin: 25px 0px 15px 20px;
+  }
+  .alreadyUsingSlack {
+    font-size: 25px;
+  }
+  .signIn {
+    font-size: 25px;
+  }
+  .imageHuman {
+    width: 500px;
+  }
+  .goodCompany {
+    font-size: 35px;
+  }
+  .millionsOf {
+    font-size: 23px;
+  }
+  .haveAlready {
+    font-size: 23px;
+  }
+  .workHappens {
+    font-size: 23px;
+  }
+  .btn2 {
+    padding: 20px 0px;
+    font-size: 15px;
+  }
+  .logoDimensions {
+    height: 95px;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  .navBar {
+    margin: 10px 40px;
+  }
+  .whereWorkHappens {
+    display: flex;
+    margin-top: 10px;
+  }
+  .whereWork {
+    margin: 0px 0px 0px 40px;
+    font-size: 50px;
+  }
+  .happens {
+    margin: 0px 0px 0px 15px;
+    font-size: 50px;
+  }
+  .para1 {
+    margin: 20px 40px 30px 40px;
+  }
+  .divForButton1and2 {
+    margin: 10px 40px;
+  }
+  .alreadyUsingSlackAndSignin {
+    margin: 10px 0px 0px 40px;
+  }
+  .goodCompany {
+    font-size: 40px;
+  }
+  .millionsOfhaveAlready {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .millionsOf {
+    font-size: 20px;
+    text-align: left;
+  }
+  .haveAlready {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 5px;
+  }
+  .workHappens {
+    font-size: 20px;
+  }
+  .logoDimensions {
+    height: 105px;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .navBar {
+    margin: 15px 40px;
+  }
+  .whereWork {
+    font-size: 60px;
+  }
+  .happens {
+    font-size: 60px;
+  }
+  .para1 {
+    font-size: 25px;
+  }
+  .divForButton1and2 {
+    margin-bottom: 20px;
+  }
+  .btn1 {
+    font-size: 25px;
+  }
+  .btn2 {
+    font-size: 25px;
+  }
+  .goodCompany {
+    font-size: 50px;
+  }
+  .millionsOfhaveAlready {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .millionsOf {
+    font-size: 25px;
+    text-align: left;
+  }
+  .haveAlready {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 5px;
+  }
+  .workHappens {
+    font-size: 25px;
+  }
+  .logoDimensions {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .navBar {
+    margin: 20px 40px;
+  }
+  .slackLogo {
+    width: 60px;
+  }
+  .slackText {
+    font-size: 45px;
+  }
+  .menuIcon {
+    width: 60px;
+  }
+  .goodCompany {
+    font-size: 55px;
+  }
+  .millionsOf {
+    font-size: 30px;
+    text-align: left;
+  }
+  .haveAlready {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 5px;
+  }
+  .workHappens {
+    font-size: 30px;
+  }
+  .logoDimensions {
+    height: 180px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .navBar {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+  }
+  .navBar2{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    /* background-color: yellow; */
+  }
+  .slackLogo {
+    width: 30px;
+  }
+  .slackText {
+    font-size: 30px;
+  }
+  .leftNavBar {
+    margin-left: 65px;
+  }
+  .menuIcon {
+    display: none;
+  }
+  .rightNavBar {
+    display: flex;
+    align-items: center;
+    /* margin-left: 110px; */
+  }
+  .navMenuItems {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .workspace {
+    background-color: white;
+    padding: 4px 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+  }
+  .block2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .block1 {
+    width: 500px;
+    margin-top: 15px;
+  }
+  .whereWorkHappens {
+    display: block;
+  }
+  .whereWork {
+    font-size: 30px;
+  }
+  .happens {
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  .para1 {
+    font-size: 15px;
+  }
+  .imageHuman {
+    width: 500px;
+  }
+  .btn1 {
+    width: 180px;
+    font-size: 10px;
+    padding: 10px 0px;
+  }
+  .alreadyUsingSlack {
+    font-size: 15px;
+  }
+  .signIn {
+    font-size: 15px;
+  }
+  .goodCompany {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .millionsOfhaveAlreadyworkHappens {
+    display: flex;
+    justify-content: center;
+  }
+  .millionsOf {
+    font-size: 15px;
+    text-align: left;
+  }
+  .haveAlready {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 5px;
+  }
+  .workHappens {
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .forbtn2only {
+    display: flex;
+    justify-content: center;
+  }
+  .btn2 {
+    width: 180px;
+    font-size: 10px;
+    padding: 10px 0px;
+  }
+  .firstThreeLogos {
+    display: flex;
+    justify-content: center;
+  }
+  .SecondThreeLogos {
+    display: flex;
+    justify-content: center;
+  }
+  .variousLogos {
+    margin: 50px 100px;
+  }
+  .logoDimensions {
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 1640px) {
+  .slackLogo {
+    width: 40px;
+  }
+  .slackText {
+    font-size: 35px;
+  }
+  .menuIcon {
+    display: none;
+  }
+  .navBar2{
+    width: 1200px;
+  }
+  .leftNavBar{
+    margin-left: 80px;
+  }
+  .navMenuItems {
+    font-size: 20px;
+  }
+  .workspace {
+    font-size: 15px;
+  }
+  .block1 {
+    width: 600px;
+    margin-top: 15px;
+  }
+  .whereWork {
+    font-size: 40px;
+  }
+  .happens {
+    font-size: 40px;
+  }
+  .para1 {
+    font-size: 20px;
+  }
+  .imageHuman {
+    width: 600px;
+  }
+  .btn1 {
+    width: 200px;
+    font-size: 15px;
+    padding: 15px 0px;
+  }
+  .alreadyUsingSlack {
+    font-size: 20px;
+  }
+  .signIn {
+    font-size: 20px;
+  }
+  .goodCompany {
+    font-size: 40px;
+  }
+  .millionsOf {
+    font-size: 20px;
+  }
+  .haveAlready {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .workHappens {
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .btn2 {
+    width: 200px;
+    font-size: 15px;
+    padding: 15px 0px;
+  }
+  .variousLogos {
+    margin: 50px 100px;
+  }
+  .logoDimensions {
+    height: 120px;
+  }
+}
